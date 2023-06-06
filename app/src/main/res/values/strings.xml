@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tanam Cerdas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="forum">Sharing with petani</string>
+    <string name="guide">Panduan</string>
+    <string name="populer_text">Populer</string>
+    <string name="navigateup_text">navigateUp</string>
+    <string name="all">Semua\n</string>
+    <string name="searchbar_hint">Search here</string>
+    <string name="alert">Menu Ini Sedang Dalam Pengembangan Silahkan Kembali Ke Menu Awal</string>
+    <string name="onboarding">Tanam Cerdas
+Adalah sebuah aplikasi yg ditujukan kepada rumah tangga untuk dapat bertani secara mandiri dalam skala kecil di rumah masing - masing. Aplikasi ini diharapkan dapat menjadi panduan bagi orang-orang untuk memulai bertani secara bertahap sehingga tidak bertani secara asal-asalan</string>
+</resources>

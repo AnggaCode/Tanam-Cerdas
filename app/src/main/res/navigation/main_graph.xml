@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.nine.tanamcerdas.ui.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_forum"
+        android:name="com.nine.tanamcerdas.ui.ForumFragment"
+        android:label="@string/forum"
+        tools:layout="@layout/fragment_forum" />
+    <fragment
+        android:id="@+id/navigation_guide"
+        android:name="com.nine.tanamcerdas.ui.guide.GuideFragment"
+        android:label="@string/guide"
+        tools:layout="@layout/fragment_guide" >
+        <action
+            android:id="@+id/action_navigation_guide_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.nine.tanamcerdas.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.nine.tanamcerdas.ui.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+</navigation>
