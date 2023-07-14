@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun visible() {
         binding.bottomNavbar.visibility = View.VISIBLE
     }
