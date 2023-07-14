@@ -11,6 +11,8 @@ data class Plants(
     val popularity: Long,
 )
 
+
+
 val plantList = listOf(
     Plants(
         "1",
